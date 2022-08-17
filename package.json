@@ -1,0 +1,19 @@
+{
+  "name": "advice-generator-from-api",
+  "version": "1.0.0",
+  "description": "an advice generator fetching an API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasArfel/advice-generator-from-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasArfel/advice-generator-from-api/issues"
+  },
+  "homepage": "https://github.com/NicolasArfel/advice-generator-from-api#readme"
+}
