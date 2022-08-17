@@ -31,30 +31,33 @@ body {
     align-items: center;
 }
 
+/* --- container --- */
+
 .container {
     position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 700px;
-    height: 400px;
+    /* width: 600px;
+    height: 350px; */
     background-color: var(--dark-grayish-blue);
     border-radius: 10px;
 }
 
 .container__title {
     color: var(--neon-green);
-    margin: 3rem auto;
+    margin-top: 3rem;
     font-size: 1rem;
 }
 
 .container__advice {
     color: var(--light-cyan);
-    margin: 3rem auto;
+    margin: 2rem auto;
+    width: 80%;
 }
 
 .container__divider {
-    margin: auto;
+    margin: auto auto 5rem auto;
     width: 80%;
 }
 
