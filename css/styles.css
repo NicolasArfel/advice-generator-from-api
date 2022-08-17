@@ -38,8 +38,6 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* width: 600px;
-    height: 350px; */
     background-color: var(--dark-grayish-blue);
     border-radius: 10px;
 }
@@ -48,6 +46,7 @@ body {
     color: var(--neon-green);
     margin-top: 3rem;
     font-size: 1rem;
+    letter-spacing: 0.3rem;
 }
 
 .container__advice {
@@ -76,6 +75,8 @@ body {
     margin: auto;
 }
 
+/* --- footer --- */
+
 .attribution { 
     position: absolute;
     bottom: 0;
@@ -85,4 +86,11 @@ body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        margin: auto 1rem;
+    }
+    
 }

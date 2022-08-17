@@ -15,7 +15,7 @@ async function getapi(url) {
     const title = document.querySelector('.container__title');
     const advice = document.querySelector('.container__advice');
     if(response) {
-        title.innerHTML = "Advice #" + data.slip.id;
+        title.innerHTML = "ADVICE #" + data.slip.id;
         advice.innerHTML = '“' + data.slip.advice + '”'
     }
 
