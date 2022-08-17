@@ -23,4 +23,59 @@ body {
     font-size: 28px;
     font-family: 'Manrope', sans-serif;
     background-color: var(--dark-blue);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+    height: 33%;
+    background-color: var(--dark-grayish-blue);
+}
+
+.container__title {
+    color: var(--neon-green);
+}
+
+.container__advice {
+    color: var(--light-cyan);
+}
+
+.container__divider {
+    margin: auto;
+    width: 80%;
+    height: 1rem;
+}
+
+.container__dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1.5rem auto;
+    background-color: var(--neon-green);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.container__dice img {
+    margin: auto;
+}
+
+.attribution { 
+    position: absolute;
+    bottom: 0;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
