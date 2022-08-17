@@ -21,6 +21,7 @@
 
 body {
     font-size: 28px;
+    font-weight: 800;
     font-family: 'Manrope', sans-serif;
     background-color: var(--dark-blue);
     height: 100vh;
@@ -35,23 +36,26 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 33%;
-    height: 33%;
+    width: 700px;
+    height: 400px;
     background-color: var(--dark-grayish-blue);
+    border-radius: 10px;
 }
 
 .container__title {
     color: var(--neon-green);
+    margin: 3rem auto;
+    font-size: 1rem;
 }
 
 .container__advice {
     color: var(--light-cyan);
+    margin: 3rem auto;
 }
 
 .container__divider {
     margin: auto;
     width: 80%;
-    height: 1rem;
 }
 
 .container__dice {
