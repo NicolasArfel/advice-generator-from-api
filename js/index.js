@@ -12,6 +12,7 @@ async function getapi(url) {
     var data = await response.json();
     console.log(data);
 
+    // including the advice into the DOM
     const title = document.querySelector('.container__title');
     const advice = document.querySelector('.container__advice');
     if(response) {
