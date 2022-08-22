@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/NicolasArfel/advice-generator-from-api)
-- Live Site URL: [Netlify](https://static-signup-form.netlify.app/)
+- Live Site URL: [Netlify](https://myadvice-generator.netlify.app/)
 
 ## My process
 
